@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Five</title>
+    <!-- Google Front Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!--  DaisyUI and Tailwind CDN  Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lexend-font">
+<!-- hearder  -->
+    <header class="w-full  bg-white">
+        <section class="bg-[#d3da4b37] pt-1 pb-3" >
+            <nav class="lg:w-11/12 flex justify-between mx-auto items-center mt-4 p-4 md:p-1">
+                <div>
+                    <button id="blog" class="py-3 px-8 bg-[#B4F461] p-10 text-xl font-normal rounded-lg"><a href="">Home</a></button>
+                </div>
+                <div class="flex items-center text-xl font-normal ">
+                    <img src="assets/logo.png" alt="">
+                    <h1 class="ml-2 hidden md:block">Donate Bangladesh</h1>
+                </div>
+                <div class="flex items-center text-xl font-normal ">
+                    <img src="assets/coin.png" alt="">
+                    <h1>5500</h1>
+                </div>
+            </nav>
+
+        </section>
+    </header>
+    <main class="container w-11/12 mx-auto ">
+        <h1 class="text-5xl font-bold mt-4 mb-8">Improtant FAQ </h1>
+    
+        <div class="">
+            <div class="collapse collapse-arrow bg-base-200 border-two mb-8">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is Dom</div>
+                <div class="collapse-content">
+                  <p>DOM, or Document Object Model, is a programming interface for web documents that represents the structure of a webpage as a tree of objects, allowing developers to manipulate its content and structure using JavaScript.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200 border-two mb-8">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">what is dom meaning</div>
+                <div class="collapse-content">
+                  <p>The term "DOM" (Document Object Model) refers to a structured representation of a document that allows JavaScript to dynamically access and manipulate its content, structure, and styles.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200 border-two mb-8">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Why is DOM used in JavaScript?</div>
+                <div class="collapse-content">
+                  <p>
+                    The DOM is used in JavaScript to enable dynamic manipulation of web page content and structure, allowing developers to create interactive experiences by responding to user events and changing elements in real time.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200 border-two mb-8">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How to Work DOM</div>
+                <div class="collapse-content">
+                  <p>document.getElementById() or document.querySelector(), manipulate their content and styles, and add event listeners with addEventListener() to make web pages interactive.</p>
+                </div>
+              </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>
